@@ -1,0 +1,49 @@
+D:\Ns system\NS_Mini_SuperMarket\NS_Mini_SuperMarket\bin\Debug\NS_Mini_SuperMarket.exe.config
+D:\Ns system\NS_Mini_SuperMarket\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.csprojResolveAssemblyReference.cache
+D:\Ns system\NS_Mini_SuperMarket\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.Properties.Resources.resources
+D:\Ns system\NS_Mini_SuperMarket\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.csproj.GenerateResource.Cache
+D:\Ns system\NS_Mini_SuperMarket\NS_Mini_SuperMarket\bin\Debug\NS_Mini_SuperMarket.exe
+D:\Ns system\NS_Mini_SuperMarket\NS_Mini_SuperMarket\bin\Debug\NS_Mini_SuperMarket.pdb
+D:\Ns system\NS_Mini_SuperMarket\NS_Mini_SuperMarket\bin\Debug\Guna.UI2.dll
+D:\Ns system\NS_Mini_SuperMarket\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.exe
+D:\Ns system\NS_Mini_SuperMarket\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.pdb
+D:\Ns system\NS_Mini_SuperMarket\NS_Mini_SuperMarket\bin\Debug\en-MS\NS_Mini_SuperMarket.resources.dll
+D:\Ns system\NS_Mini_SuperMarket\NS_Mini_SuperMarket\obj\Debug\en-MS\NS_Mini_SuperMarket.resources.dll
+D:\Ns system\NS_Mini_SuperMarket\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.frmSalesCalculation.resources
+D:\Ns system\NS_Mini_SuperMarket\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.frmSalesCalculation.en-MS.resources
+D:\Ns system\NS_Mini_SuperMarket\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.frmDailySales.resources
+D:\Ns system\NS_Mini_SuperMarket\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.frmInstanceDailySales.resources
+D:\Ns system\NS_Mini_SuperMarket\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.frmItemDetailsForm.resources
+D:\Ns system\NS_Mini_SuperMarket\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.frmSupplierDetails.resources
+D:\Ns system\NS_Mini_SuperMarket\NS_Mini_SuperMarket\bin\Debug\Products.sdf
+D:\Ns system\NS_Mini_SuperMarket\NS_Mini_SuperMarket\bin\Debug\NSMniSuperMarket_db.sdf
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\bin\Debug\NS_Mini_SuperMarket.exe.config
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.exe
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.pdb
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\bin\Debug\NSMniSuperMarket_db.sdf
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\bin\Debug\Products.sdf
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\bin\Debug\NS_Mini_SuperMarket.exe
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\bin\Debug\NS_Mini_SuperMarket.pdb
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\bin\Debug\en-MS\NS_Mini_SuperMarket.resources.dll
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\bin\Debug\Guna.UI2.dll
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.frmDailySales.resources
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.frmItemDetailsForm.resources
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.frmSupplierDetails.resources
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.Properties.Resources.resources
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.frmSalesCalculation.resources
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.frmSalesCalculation.en-MS.resources
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.csproj.GenerateResource.Cache
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\obj\Debug\en-MS\NS_Mini_SuperMarket.resources.dll
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.csprojResolveAssemblyReference.cache
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\obj\Debug\RdlCompile.cache
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\obj\Debug\RdlCompile.compiled
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.report_DailySales.resources
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.report_DailySalesFull.resources
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.frmDashBoard.resources
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.frmLogin.resources
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.frmReports.resources
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.report_Supplier.resources
+D:\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.Form2.resources
+C:\Users\YahanB\Desktop\New folder\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\bin\Debug\NS_Mini_SuperMarket.exe.config
+C:\Users\YahanB\Desktop\New folder\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.exe
+C:\Users\YahanB\Desktop\New folder\Ns system\NS_Mini_SuperMarket - Copy\NS_Mini_SuperMarket\obj\Debug\NS_Mini_SuperMarket.pdb

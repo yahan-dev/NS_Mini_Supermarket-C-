@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{88147544-6685-46F2-8E69-5A5F673249A7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NS_Mini_SuperMarket</RootNamespace>
+    <AssemblyName>NS_Mini_SuperMarket</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>NS_Mini_SuperMarket.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2">
+      <HintPath>C:\Users\YahanB\Desktop\Gunai UI\New folder (4)\guna.ui2.winforms.2.0.3.5\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServerCe.Client, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDailySales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDailySales.Designer.cs">
+      <DependentUpon>frmDailySales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDashBoard.Designer.cs">
+      <DependentUpon>frmDashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmItemDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmItemDetailsForm.Designer.cs">
+      <DependentUpon>frmItemDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReports.Designer.cs">
+      <DependentUpon>frmReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSupplierDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSupplierDetails.Designer.cs">
+      <DependentUpon>frmSupplierDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NSMniSuperMarket_dbDataSet.cs">
+      <DependentUpon>NSMniSuperMarket_dbDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NSMniSuperMarket_dbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NSMniSuperMarket_dbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="NSMniSuperMarket_dbDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NSMniSuperMarket_dbDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="NSMniSuperMarket_dbDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NSMniSuperMarket_dbDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="NSMniSuperMarket_dbDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NSMniSuperMarket_dbDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="frmSalesCalculation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSalesCalculation.Designer.cs">
+      <DependentUpon>frmSalesCalculation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report_DailySales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="report_DailySales.Designer.cs">
+      <DependentUpon>report_DailySales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report_DailySalesFull.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="report_DailySalesFull.Designer.cs">
+      <DependentUpon>report_DailySalesFull.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report_Supplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="report_Supplier.Designer.cs">
+      <DependentUpon>report_Supplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserSession.cs" />
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDailySales.resx">
+      <DependentUpon>frmDailySales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDashBoard.resx">
+      <DependentUpon>frmDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmItemDetailsForm.resx">
+      <DependentUpon>frmItemDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReports.resx">
+      <DependentUpon>frmReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSupplierDetails.resx">
+      <DependentUpon>frmSupplierDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="frmSalesCalculation.en-MS.resx">
+      <DependentUpon>frmSalesCalculation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSalesCalculation.resx">
+      <DependentUpon>frmSalesCalculation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rdlc_DailySale.rdlc" />
+    <EmbeddedResource Include="rdlc_DailySalesFilter.rdlc" />
+    <EmbeddedResource Include="rdlc_SupplierDetails.rdlc" />
+    <EmbeddedResource Include="report_DailySales.resx">
+      <DependentUpon>report_DailySales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report_DailySalesFull.resx">
+      <DependentUpon>report_DailySalesFull.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report_Supplier.resx">
+      <DependentUpon>report_Supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="test_report.rdlc" />
+    <None Include="NSMniSuperMarket_dbDataSet.xsc">
+      <DependentUpon>NSMniSuperMarket_dbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="NSMniSuperMarket_dbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NSMniSuperMarket_dbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NSMniSuperMarket_dbDataSet.xss">
+      <DependentUpon>NSMniSuperMarket_dbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="NSMniSuperMarket_dbDataSet1.xsc">
+      <DependentUpon>NSMniSuperMarket_dbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="NSMniSuperMarket_dbDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NSMniSuperMarket_dbDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NSMniSuperMarket_dbDataSet1.xss">
+      <DependentUpon>NSMniSuperMarket_dbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="NSMniSuperMarket_dbDataSet2.xsc">
+      <DependentUpon>NSMniSuperMarket_dbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="NSMniSuperMarket_dbDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NSMniSuperMarket_dbDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NSMniSuperMarket_dbDataSet2.xss">
+      <DependentUpon>NSMniSuperMarket_dbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="NSMniSuperMarket_dbDataSet3.xsc">
+      <DependentUpon>NSMniSuperMarket_dbDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="NSMniSuperMarket_dbDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NSMniSuperMarket_dbDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NSMniSuperMarket_dbDataSet3.xss">
+      <DependentUpon>NSMniSuperMarket_dbDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.4.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 4.0 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="NSMniSuperMarket_db.sdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Products.sdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Secure.png" />
+    <None Include="Resources\Male User1.png" />
+    <None Include="Resources\Password.png" />
+    <None Include="Resources\Customer1.png" />
+    <None Include="Resources\Male User.png" />
+    <None Include="Resources\Customer.png" />
+    <None Include="Resources\Settings.png" />
+    <None Include="Resources\Business Report.png" />
+    <None Include="Resources\Sales Performance.png" />
+    <None Include="Resources\Card Payment.png" />
+    <None Include="Resources\Contact Details.png" />
+    <None Include="Resources\Supplier.png" />
+    <None Include="Resources\Product.png" />
+    <None Include="Resources\Report File.png" />
+    <None Include="Resources\Data Transfer.png" />
+    <None Include="Resources\Edit Product.png" />
+    <None Include="Resources\Estimate.png" />
+    <None Include="Resources\Total Sales.png" />
+    <None Include="Resources\Add to Basket.png" />
+    <None Include="Resources\Add List.png" />
+    <None Include="Resources\Home.png" />
+    <None Include="Resources\Cash Register.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
